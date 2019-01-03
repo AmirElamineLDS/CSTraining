@@ -21,6 +21,7 @@ namespace Ex2_3
             string I1.Display()
         {
             return "Display I1";
+
         }
     
         
