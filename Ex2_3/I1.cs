@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2_3
 {
-    interface I1
+    public interface I1
     {
 
         string Display();

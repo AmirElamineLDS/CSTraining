@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="I1.cs" />
     <Compile Include="I2.cs" />
+    <Compile Include="Interface1_2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

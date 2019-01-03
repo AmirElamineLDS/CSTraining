@@ -6,29 +6,21 @@ using System.Threading.Tasks;
 
 namespace Ex2_3
 {
-    class Program:I1,I2
+    class Program
     {
         static void Main(string[] args)
         {
 
+            Interface1_2 interface12 = new Interface1_2();
+            
+            Console.WriteLine(((I1)interface12).Display());
 
-            Console.WriteLine();
+            Console.WriteLine(((I2)interface12).Display());
 
-
+            Console.ReadLine();
         }
 
 
-            string I1.Display()
-        {
-            return "Display I1";
-            //test if Git is working here..
-        }
-    
-        
-
-        string I2.Display()
-        {
-            return "Display I2";
-        }
+          
     }
 }
