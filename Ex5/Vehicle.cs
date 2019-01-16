@@ -16,7 +16,8 @@ namespace Ex5
         {
             this.RegNumber = regNumber;
             this.MaxVelocity = maxVelocity;
-            
+            this.BValue = bValue;
+
         }
         public Vehicle()
         {

@@ -11,11 +11,13 @@ namespace Ex2
     {
         static void Main(string[] args)
         {
+
+            ////write ////
             string fileName = @"C:\Users\AELAMINE\source\repos\CSTraining\Ex2\BinaryFile.bin";
             WriteInByteFile(fileName);
 
 
-            ////rread ////
+            ////read ////
 
             ReadFromByteFile(fileName);
 
@@ -46,7 +48,7 @@ namespace Ex2
             Console.WriteLine("Write your age");
             userAge = Console.ReadLine();
             byte userAgeByte = byte.Parse(userAge);
-            Console.WriteLine("you typed" + userAgeByte);
+            Console.WriteLine("you typed " + userAgeByte);
             Console.WriteLine("Write your year of birth");
             userYB = Console.ReadLine();
             int userTBByte = int.Parse(userYB);
@@ -57,8 +59,8 @@ namespace Ex2
             BinaryWriter bwStream = new BinaryWriter(fileStream, ASCIIEncoding.ASCII);
 
 
-            bwStream.Write("Your Name is:" + UserName);
-            bwStream.Write(" & Age :" + userAgeByte);
+            bwStream.Write("Your Name is: " + UserName);
+            bwStream.Write(", Age :" + userAgeByte);
             bwStream.Write(" & Birth year :" + userTBByte);
             bwStream.Close();
             fileStream.Close();

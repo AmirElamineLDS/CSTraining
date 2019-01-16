@@ -11,6 +11,7 @@ namespace Ex1_3
     {
         static void Main(string[] args)
         {
+            ////write ////
 
             string fileName = @"C:\Users\AELAMINE\source\repos\CSTraining\Ex1_3\example.txt";
             WriteInByteFile(fileName);
